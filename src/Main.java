@@ -1,17 +1,65 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.print("Hello and welcome!");
+//        Character p1 = new Character();
+//        p1.showStatus();
+//        p1.getItem();
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+//        test t = new test();
+//        t.cal();
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+//        Character player = new Character();
+//        player.showStatus();
+//        player.getItem();
+//        Ring ring = new Ring();
+
+//        player.getItem();
+//        ring.accessCH(player);
+//        ring.showBeforeState();
+//        ring.update();
+//        ring.showAfterState();
+
+
+
+//        m.showState();
+
+//        Women w = new Women();
+//        w.showState();
+//        Men men = new Men();
+//        Ring ring = new Ring();
+//
+//        men.showBeforeState();
+//        men.updateFromRing(ring);
+//        men.showAfterState();
+
+
+        Men men = new Men();
+
+//        Ring ring = new Ring();
+//        Veil veil = new Veil();
+
+        men.showStartState();
+        men.getItem();
+//        men.equipAccessory(ring);
+        men.showCurrentState();
+
+
+//
+//        Women women = new Women();
+//        women.showStartState();
+//        women.getItem();
+////        women.equipAccessory(veil);
+//        women.showCurrentState();
+
+
+//        men.Attack(women);
+//        men.Defend(women);
+//        men.showstateCompleteActivity();
+//        women.showstateCompleteActivity();
+
+
+
+
     }
 }
+
+
